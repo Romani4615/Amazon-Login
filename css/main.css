@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+}
+.logo {
+    text-align: center;
+}
+#a-box {
+    float: center;
+    text-align: left;
+    border: solid;
+    border-radius: 1px;
+    border-width: 1px;
+    color: black;
+    border-color: lightgray;
+    box-sizing: content-box;
+}
+
+.a-input-text {
+    float: center;
+}
+
+.a-form-label {
+    font-size: 13px;
+    margin-bottom: 2px;
+    font-weight: bold;
+}
+
+h1 {
+    font-weight: 300;
+    font-size: 28px;
+    line-height: 1.2;
+    text-align: left;
+}
+.container-fluid {
+    padding-top: 8%;
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-bottom: 4%;
+    display: inline-block
+}
+.row {
+    float: center;
+}
+#basic-url {
+    width: 100%;
+    overflow: hidden;
+    border-color: gray;
+    height: 3%;
+    margin-top: 0%;
+}
+
+.a {
+    text-align: left;
+    float: left;
+    padding: 0%;
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+}
+.conditions {
+    font-size: 12px;
+    margin-top: 15px;
+}
+#basic-url:focus {
+    border-color: sandybrown;
+    box-shadow: 0 0 5px 2px orange;
+}
+#button {
+    border-color: gray;
+    background-color: #F1C75B;
+    color: black;
+        margin-top: 15px;
+        font-size: 12px;
+    }
+
+#dropdown {
+    background-color: transparent;
+    border-color: transparent;
+    color: blue;
+    margin-left: 0%;
+    padding-left: 0%;
+    font-size: 12px;
+}
+#dropdown.active {
+    border: transparent;
+}
+.dropdown-item {
+    font-size: 13px;
+    border: transparent;
+    border-color: transparent;
+}
